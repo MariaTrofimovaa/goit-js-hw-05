@@ -24,12 +24,12 @@ class Storage {
   }
 
   removeItem(item) {
-    for (let element of this.items) {
-      if (element === item) {
-        const index = this.items.indexOf(item);
-        this.items.splice(index, 1);
-      }
-    }
+    // for (let element of this.items) {
+    // if (element === item) {
+    const index = this.items.indexOf(item);
+    this.items.splice(index, 1);
+    // }
+    // }
   }
 }
 
